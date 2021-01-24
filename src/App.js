@@ -16,10 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          OTrading.tv
+          Visit OTrading.tv
         </a>
-        <br />
-        <small>Last edit: 23jan2021 19:48</small>
       </header>
     </div>
   );
