@@ -2,19 +2,29 @@ import React from 'react';
 
 import {
   EmailShareButton,
-  FacebookShareButton
+  FacebookShareButton,
+  LinkedinShareButton,
+  RedditShareButton,
+  TelegramShareButton,
+  TwitterShareButton
 } from "react-share";
 import {
   EmailIcon,
-  FacebookIcon
+  FacebookIcon,
+  LinkedinIcon,
+  RedditIcon,
+  TelegramIcon,
+  TwitterIcon
 } from "react-share";
 
 function ShareButton() {
+  const title = "OTrading";
+  const shareUrl = "https://otrading.netlify.app";
   return (
   		<h2>
           <FacebookShareButton
-            url="https://otrading.netlify.app"
-            quote="OTrading"
+            url={shareUrl}
+            quote={title}
             hashtag="#OTrading">
             <FacebookIcon logoFillColor="white" />
           </FacebookShareButton> 
@@ -24,7 +34,33 @@ function ShareButton() {
             body="Go visit OTrading.tv"
             separator=" ">
             <EmailIcon logoFillColor="white" />
-          </EmailShareButton>
+          </EmailShareButton> 
+
+          <LinkedinShareButton
+            url={shareUrl}
+            title={title}
+            summary="Go visit OTrading.tv"
+            source={shareUrl}>
+            <LinkedinIcon logoFillColor="white" />
+          </LinkedinShareButton> 
+
+          <RedditShareButton
+            url={shareUrl}
+            title={shareUrl}>
+            <RedditIcon logoFillColor="white" />
+          </RedditShareButton> 
+
+          <TelegramShareButton
+            url={shareUrl}
+            title={shareUrl}>
+            <TelegramIcon logoFillColor="white" />
+          </TelegramShareButton> 
+
+          <TwitterShareButton
+            url={shareUrl}
+            title={title}>
+            <TwitterIcon logoFillColor="white" />
+          </TwitterShareButton>
         </h2>
   	);
 }
