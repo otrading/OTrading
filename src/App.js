@@ -1,4 +1,5 @@
 import React from 'react';
+import ShareButton from './ShareButton';
 import logo from './OTrading_logo.png';
 import './App.css';
 
@@ -36,6 +37,14 @@ function App() {
           href="https://www.instagram.com/otrading.tv"
           target="_blank" rel="noopener noreferrer"
         >Instagram</a>
+
+        <p>
+          <br /><br />
+          Share on social media
+        </p>
+
+        <ShareButton />
+        
       </header>
     </div>
   );
