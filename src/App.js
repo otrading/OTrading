@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Visit OTrading.tv
+          Visit OTrading.tv (23jan)
         </a>
       </header>
     </div>
