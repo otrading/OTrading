@@ -5,7 +5,6 @@ import './App.css';
 import { SocialIcon } from 'react-social-icons';
 
 function App() {
-  const [list, setList] = React.useState(null);
   return (
     <div className="App">
       <header className="App-header">
