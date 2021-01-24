@@ -32,31 +32,7 @@ function ShareButton() {
             body="Go visit OTrading.tv"
             separator=" ">
             <EmailIcon logoFillColor="white" />
-          </EmailShareButton> 
-
-          <LinkedinShareButton
-            title="OTrading.tv"
-            summary="Go visit OTrading.tv"
-            source="https://otrading.netlify.app">
-            <LinkedinIcon logoFillColor="white" />
-          </LinkedinShareButton> 
-
-          <RedditShareButton
-            title="OTrading.tv">
-            <RedditIcon logoFillColor="white" />
-          </RedditShareButton> 
-
-          <TelegramShareButton
-            title="OTrading">
-            <TelegramIcon logoFillColor="white" />
-          </TelegramShareButton> 
-
-          <TwitterShareButton
-            title="OTrading"
-            via="OTrading"
-            hashtag="#OTrading">
-            <TwitterIcon logoFillColor="white" />
-          </TwitterShareButton>
+          </EmailShareButton>
         </h2>
   	);
 }
